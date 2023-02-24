@@ -12,7 +12,7 @@ form.addEventListener("submit", (e)=>{
   if(eInput.value == ""){
     text.innerText = "O e-mail não pode ficar em branco";
   }else if (!eInput.value.match(pattern) ) { //se o padrão não corresponder ao valor de entrada do usuário
-    text.innerText = "Por favor digite um email válido";
+    text.innerText = "Por favor digite um email válido!";
   }else{
     form.classList.replace("error" , "valid"); // substituindo a classe de erro por uma classe válida
     text.innerText = "Este é um e-mail válido";
