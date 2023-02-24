@@ -104,4 +104,10 @@
  form.valid .text{
    color: #adff2f;
  }
+ footer{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 100px;
+  text-align: right;
+}
+
  
